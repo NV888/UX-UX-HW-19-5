@@ -47,6 +47,11 @@
     background-color: #eee;
     /* My UX skills section coding using CSS */
   }
+
+  .flexChild1 {
+    max-width:50%;
+}
+
   /* .workGrid */
   .grid-container {
     display: grid;
@@ -60,7 +65,7 @@
     display: grid;
     
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) 
     body {
       background-color: lightblue;
     }
@@ -71,8 +76,22 @@
     
     /* .flexContainer {} */
     .workGrid {
-      grid-area: myArea;
+
     }
+        footer {
+            background-color:#7f0028;
+            height:50px;
+          }
+          footer a {
+            padding-top:14px;
+            padding-right:30px;
+            font-size:16px;
+            display:inline-block;
+            font-family:'Inter', 'Tahoma', 'Arial', sans-serif;
+            text-decoration:none;
+            color: #FFFFEE;
+          }
+   
     .grid-container {
       display: grid;
       grid-template-areas: "myArea myArea . . .";
@@ -85,4 +104,6 @@
       display: grid;
       grid-template-columns: auto auto auto auto;
     }
-  }
+  
+
+  
