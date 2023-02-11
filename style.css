@@ -35,3 +35,54 @@
     color: black;
   }
   
+
+
+  /* .mySkills  */
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: auto;
+    flex-wrap: 33%; 
+    background-color: #eee;
+    /* My UX skills section coding using CSS */
+  }
+  /* .workGrid */
+  .grid-container {
+    display: grid;
+    grid-template-rows: 25% 25% 25%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .grid-container {
+    display: grid;
+    
+  }
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    /* .flexContainer {} */
+    .workGrid {
+      grid-area: myArea;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-areas: "myArea myArea . . .";
+    }
+    .grid-container {
+      display: grid;
+      grid-template-rows: 100px 300px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+  }
